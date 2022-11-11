@@ -1,4 +1,7 @@
 import "./Home.css"
+import { Router, Link } from "react-router-dom";
+ 
+import Login from "./Login"
 function Navbar(){
 
 
@@ -19,7 +22,12 @@ function Navbar(){
             <p  className="reg">Register As A Professional</p>
         </div>
         <div>
-            <p>Login</p>
+            <p>  Login</p>
+            
+            {/* <Link to="/Login" >Login</Link> */}
+           
+           
+             {/* <a href={Login}>Login</a> */}
         </div>
         <div>
             <p className="sign">/SignUp</p>

@@ -2,19 +2,11 @@
 import "./Home.css"
 import Footer from "./Footer"
 import Services from "./services"
-import { Select } from '@chakra-ui/react'
+import Login from "./Login"
 import { useState } from "react"
  function Home(){
 
-  const [city,setCity]=useState(false)
-
-  const selectCity=()=>{
-    setCity(true)
-  }
-  if(city==true){
-
-    return <Services/>
-  }
+  
 
 
   return (
@@ -26,17 +18,18 @@ import { useState } from "react"
   <div className="docter" >
     <img src="https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_19be5040.jpeg" alt="" />
     </div> 
+    <div className="colorr"></div>
 <div className="mainPart2">
   <p style={{color:"rgb(189,189,189)",fontSize:"28px",textAlign:"start"}} >URBAN COMPANY</p>
   
-  <p style={{color:"white",fontSize:"35px",textAlign:"start",fontWeight:"bold"}} >Quality home services,on demand</p>
+  <p style={{color:"white",fontSize:"32px",textAlign:"start",fontWeight:"bold"}} >Quality home services,on demand</p>
   <p style={{color:"rgb(189,189,189)",fontSize:"22px",textAlign:"start"}} >Experienced,hand-picked Professionals to serve you at your doorStep</p>
   <div className="selctt">
     <label style={{fontSize:"20px",textAlign:"start",marginLeft:"-25px",fontWeight:"bold"}}>Where do you need a servies?</label>
     <br/>
-  <select onSelect={selectCity}  placeholder='Select option'>
+  <select   placeholder='Select option'>
   <option value='option1'>Select your city</option>
-  <option value='option2'>Ahmedabad</option>
+  <option  value='option2'> Ahmedabad </option>
   <option value='option3'>Warangal</option>
     <option value='option2'>Panipat</option> 
   <option value='option3'>Madurai</option>

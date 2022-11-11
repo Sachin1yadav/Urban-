@@ -259,6 +259,7 @@ margin-top: 30px;
    color:white;
    margin: 0px 60px 0px 10px;
 }
+ 
 .navbarLogo img{
    margin: 5px 10px 0px 50px;
    width:140px;
@@ -282,11 +283,12 @@ margin-top: 30px;
 /* .......................................... */
 
 
-.backImage img{
+.backImage img {
    /* background-image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"; */
 width: 100%;
 height:100%;
-
+/* background-image: url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg); */
+ 
 }
 .mainpage{
    width: 100%;
@@ -368,24 +370,30 @@ cursor: pointer;
    width: auto;
    height: 500px;
    margin: auto;
-   display: flex;
-   /* border: 1px solid red; */
+   display: flex; 
+   /* background: linear-gradient(90deg,transparent,#000 40%); */
+   position: relative;
+   z-index: 3;
 }
 .docter {
    width: 60%;
+ /* background-image: url("https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_19be5040.jpeg"); */
 }
 
 .docter img{
   width: 100%;
   height: 100%;
   margin: auto;
+  
+  margin: auto;
 }
 .mainPart2{
-   width: 50%;
+   width: 60%;
    background-color: black;
   padding: 50px;
    color: white;
     
+   
 }
 .selctt{
    width: 300px;
@@ -403,4 +411,50 @@ cursor: pointer;
    height: 40px;
    border: 0px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.colorr{
+   width: 20%;
+   height: 100%;
+   background-image: linear-gradient(to left, rgb(0, 0, 0) , rgb(255, 255, 255));
+   
+}
+.FORM{
+   width: 400px;
+   height: 350px;
+   /* border: 1px solid red; */
+   margin: auto;
+   display: flex;
+   margin-top: 50px;
+   flex-direction: column;
+   gap: 30px;
+   border-radius: 20px;
+   padding: 30px;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.FORM input{
+   width: 70%;
+   margin: auto;
+   height: 70px;
+   border-radius: 3px;
+   border: 1px dotted gray;
+}
+.FORM button{
+   width: 40%;
+   margin: auto;
+   border: 1px dotted black;
+   border-radius: 5px;
+   height: 90px;
+   color: white;
+   background-color: rgb(51, 51, 246);
+}
+.FORM button:hover{
+   width: 41%;
+   height: 100px;
+    
+   cursor: pointer;
+   background-color: rgb(0, 0, 255);
+}
+.FORM p{
+   font-size: 20px;
+   font-weight: bold;
 }

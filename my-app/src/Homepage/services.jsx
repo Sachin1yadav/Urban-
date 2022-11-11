@@ -13,6 +13,14 @@ function Services(){
 <div className="mainpage">
      <div className="backImage">
        <img   src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg"/>
+           {/* <p style={{fontSize:"30px"}}>Home services, on demand</p>
+           <select>
+            <option> 1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+           </select>
+           <input    placeholder="Search for services"/> */}
      </div>
 </div>
 {/* ................... */}
