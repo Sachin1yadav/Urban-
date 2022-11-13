@@ -287,13 +287,55 @@ margin-top: 30px;
    /* background-image: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"; */
 width: 100%;
 height:100%;
-/* background-image: url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg); */
+object-fit:fill;
  
 }
 .mainpage{
    width: 100%;
    height: 500px;
+   display: flex;
    /* border: 1px solid red; */
+   background-color: rgb(185,163,122); 
+}
+.back2{
+    width: 80%;
+    margin-left: -1200px;
+     
+    /* background-color: rgb(185,163,122); */
+}
+.back2 p{
+    margin-top: 170px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.back2 input{
+    margin-left: 30px;
+    width: 600px;
+    border-radius: 5px;
+    height: 50px;
+    border: 0px;
+    text-align: center;
+    color: rgb(82, 31, 31);
+    
+    font-size: 20px;
+   
+}
+ 
+.back2 select{
+    width: 100px;
+    border-radius: 5px;
+    height: 50px;
+    border: 0px;
+    margin-left: 110px;
+    text-align: center;
+    color: rgb(82, 31, 31);
+    
+    font-size: 20px;
+}
+.back2 p:hover{
+    color: rgb(215, 214, 214);
+    cursor: pointer;
 }
 .mainMid{
    display: flex;
@@ -558,10 +600,4 @@ cursor: pointer;
     font-style: initial;
      text-decoration: underline;
 }
-.wholeSIGN{
-    /* width: 100%;
-    height: 100%; 
-    /* background-repeat: no-repeat; */
-    /* background-size: 100% 100%; */
-    /* background-color: blanchedalmond; */
-}
+ 

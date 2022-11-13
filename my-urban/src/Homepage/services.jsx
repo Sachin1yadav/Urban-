@@ -16,15 +16,19 @@ function Services(){
 <div className="mainpage">
      <div className="backImage">
        <img   src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg"/>
-           {/* <p style={{fontSize:"30px"}}>Home services, on demand</p>
-           <select>
-            <option> 1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-           </select>
-           <input    placeholder="Search for services"/> */}
-     </div>
+          </div>
+            <div className="back2"> 
+                <p> Home services, on demond</p>
+              <select>
+                <option value="">City</option>
+                <option value="">Varansi</option>
+                <option value="">Mumbai</option>
+                <option value="">Delhi</option>
+              </select>
+              <input placeholder="Search for services"></input>
+              <h6 style={{color:"white", fontSize:"15px" ,fontStyle:"italic",marginTop:"0px",textDecoration:"underline"}}>Men's Therapies,Home Painting,Electrocians etc</h6>
+            </div>
+     
 </div>
 {/* ................... */}
 <div className="mainMid">
